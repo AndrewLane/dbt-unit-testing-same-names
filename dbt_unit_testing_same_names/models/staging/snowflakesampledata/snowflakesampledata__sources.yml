@@ -5,5 +5,7 @@ sources:
     database: snowflake_sample_data
     schema: tpch_sf1
     tables:
-      - name: customer
-      - name: nation
+      - name: source_customer
+        identifier: customer
+      - name: source_nation
+        identifier: nation
